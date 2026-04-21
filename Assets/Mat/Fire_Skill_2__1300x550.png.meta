@@ -1,0 +1,570 @@
+fileFormatVersion: 2
+guid: 03cfa23d97e1eef47b99fabc4a066d58
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1349092921668045163
+    second: Fire_Skill_2__1300x550_0
+  - first:
+      213: -8769627816188349167
+    second: Fire_Skill_2__1300x550_1
+  - first:
+      213: 4380751481528615276
+    second: Fire_Skill_2__1300x550_2
+  - first:
+      213: -4050880432894590789
+    second: Fire_Skill_2__1300x550_3
+  - first:
+      213: 2330783289363355946
+    second: Fire_Skill_2__1300x550_4
+  - first:
+      213: 2387765122538378996
+    second: Fire_Skill_2__1300x550_5
+  - first:
+      213: 3426358775291950270
+    second: Fire_Skill_2__1300x550_6
+  - first:
+      213: 4690327951472247601
+    second: Fire_Skill_2__1300x550_7
+  - first:
+      213: 2232349977073011357
+    second: Fire_Skill_2__1300x550_8
+  - first:
+      213: -4153144311630410463
+    second: Fire_Skill_2__1300x550_9
+  - first:
+      213: 1625173211242284328
+    second: Fire_Skill_2__1300x550_10
+  - first:
+      213: 3280371484848490707
+    second: Fire_Skill_2__1300x550_11
+  - first:
+      213: -5393928389214931368
+    second: Fire_Skill_2__1300x550_12
+  - first:
+      213: -1762166946676904902
+    second: Fire_Skill_2__1300x550_13
+  - first:
+      213: -8222319214578433323
+    second: Fire_Skill_2__1300x550_14
+  - first:
+      213: 5255243667483761025
+    second: Fire_Skill_2__1300x550_15
+  - first:
+      213: -7930384924211379124
+    second: Fire_Skill_2__1300x550_16
+  - first:
+      213: -7961646048466594198
+    second: Fire_Skill_2__1300x550_17
+  - first:
+      213: -4548274910418569770
+    second: Fire_Skill_2__1300x550_18
+  - first:
+      213: -286696863516497414
+    second: Fire_Skill_2__1300x550_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Fire_Skill_2__1300x550_0
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 1100
+        width: 1300
+        height: 550
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5967bf2b22f074de0800000000000000
+      internalID: -1349092921668045163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Skill_2__1300x550_1
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 1100
+        width: 1300
+        height: 550
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11575b3f6f50c4680800000000000000
+      internalID: -8769627816188349167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Skill_2__1300x550_2
+      rect:
+        serializedVersion: 2
+        x: 3900
+        y: 1100
+        width: 1300
+        height: 550
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6187c1234e8bcc30800000000000000
+      internalID: 4380751481528615276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Skill_2__1300x550_3
+      rect:
+        serializedVersion: 2
+        x: 5200
+        y: 1100
+        width: 1300
+        height: 550
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb0ccb175b168c7c0800000000000000
+      internalID: -4050880432894590789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Skill_2__1300x550_4
+      rect:
+        serializedVersion: 2
+        x: 6500
+        y: 1100
+        width: 1300
+        height: 550
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a295bea7d0b985020800000000000000
+      internalID: 2330783289363355946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Skill_2__1300x550_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 550
+        width: 1300
+        height: 550
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f697ff5abb032120800000000000000
+      internalID: 2387765122538378996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Skill_2__1300x550_6
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 550
+        width: 1300
+        height: 550
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb4b15a072fdc8f20800000000000000
+      internalID: 3426358775291950270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Skill_2__1300x550_7
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 550
+        width: 1300
+        height: 550
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 133c693eb64671140800000000000000
+      internalID: 4690327951472247601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Skill_2__1300x550_8
+      rect:
+        serializedVersion: 2
+        x: 3900
+        y: 550
+        width: 1300
+        height: 550
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9ac9c50a76eafe10800000000000000
+      internalID: 2232349977073011357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Skill_2__1300x550_9
+      rect:
+        serializedVersion: 2
+        x: 5200
+        y: 550
+        width: 1300
+        height: 550
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12dc55cb0411d56c0800000000000000
+      internalID: -4153144311630410463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Skill_2__1300x550_10
+      rect:
+        serializedVersion: 2
+        x: 6500
+        y: 550
+        width: 1300
+        height: 550
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 825c392dc66cd8610800000000000000
+      internalID: 1625173211242284328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Skill_2__1300x550_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1300
+        height: 550
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d807bd3c78368d20800000000000000
+      internalID: 3280371484848490707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Skill_2__1300x550_12
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 0
+        width: 1300
+        height: 550
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 856f2f055bae425b0800000000000000
+      internalID: -5393928389214931368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Skill_2__1300x550_13
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 0
+        width: 1300
+        height: 550
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3c63649f768b87e0800000000000000
+      internalID: -1762166946676904902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Skill_2__1300x550_14
+      rect:
+        serializedVersion: 2
+        x: 3900
+        y: 0
+        width: 1300
+        height: 550
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d20f21fc3474ed80800000000000000
+      internalID: -8222319214578433323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Skill_2__1300x550_15
+      rect:
+        serializedVersion: 2
+        x: 5200
+        y: 0
+        width: 1300
+        height: 550
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1899d78a5406ee840800000000000000
+      internalID: 5255243667483761025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Skill_2__1300x550_16
+      rect:
+        serializedVersion: 2
+        x: 6500
+        y: 0
+        width: 1300
+        height: 550
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c44844cadec91f190800000000000000
+      internalID: -7930384924211379124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: de87f9dafd7b8d5498af788b41ac5380
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":6.0,"y":3.0},"gridSpriteSize":{"x":1300.0,"y":550.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Fire_Skill_2__1300x550_0: -1349092921668045163
+      Fire_Skill_2__1300x550_1: -8769627816188349167
+      Fire_Skill_2__1300x550_10: 1625173211242284328
+      Fire_Skill_2__1300x550_11: 3280371484848490707
+      Fire_Skill_2__1300x550_12: -5393928389214931368
+      Fire_Skill_2__1300x550_13: -1762166946676904902
+      Fire_Skill_2__1300x550_14: -8222319214578433323
+      Fire_Skill_2__1300x550_15: 5255243667483761025
+      Fire_Skill_2__1300x550_16: -7930384924211379124
+      Fire_Skill_2__1300x550_2: 4380751481528615276
+      Fire_Skill_2__1300x550_3: -4050880432894590789
+      Fire_Skill_2__1300x550_4: 2330783289363355946
+      Fire_Skill_2__1300x550_5: 2387765122538378996
+      Fire_Skill_2__1300x550_6: 3426358775291950270
+      Fire_Skill_2__1300x550_7: 4690327951472247601
+      Fire_Skill_2__1300x550_8: 2232349977073011357
+      Fire_Skill_2__1300x550_9: -4153144311630410463
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

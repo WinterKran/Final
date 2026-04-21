@@ -1,0 +1,340 @@
+fileFormatVersion: 2
+guid: ecba7d72b6c39e3499b5936ed6a49bd0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5189691121816951081
+    second: card_0
+  - first:
+      213: -1150797853226429853
+    second: card_1
+  - first:
+      213: 4179361977775431376
+    second: card_2
+  - first:
+      213: 3388945746152779112
+    second: card_3
+  - first:
+      213: 7797158584684704892
+    second: card_4
+  - first:
+      213: -2926814536932516816
+    second: card_5
+  - first:
+      213: 1542423998797467731
+    second: card_6
+  - first:
+      213: 1726367332772499340
+    second: card_7
+  - first:
+      213: -8789749092250026857
+    second: card_8
+  - first:
+      213: 4831517175032741843
+    second: card_9
+  - first:
+      213: -6285694348100652515
+    second: card_10
+  - first:
+      213: 7247009199863952834
+    second: card_11
+  - first:
+      213: 8799890943240362401
+    second: card_12
+  - first:
+      213: -5730878019799153479
+    second: card_13
+  - first:
+      213: 2111860244624441137
+    second: card_14
+  - first:
+      213: 5536039749264606949
+    second: card_15
+  - first:
+      213: 7510658959863396369
+    second: card_16
+  - first:
+      213: 1697019322546908749
+    second: card_17
+  - first:
+      213: 1091916756874483999
+    second: card_18
+  - first:
+      213: 3459038646671603892
+    second: card_19
+  - first:
+      213: 1804271963503620522
+    second: card_20
+  - first:
+      213: 7389427156121150376
+    second: card_21
+  - first:
+      213: 3739046437729302291
+    second: card_22
+  - first:
+      213: 480835609232195222
+    second: card_23
+  - first:
+      213: 9010558026739401144
+    second: card_24
+  - first:
+      213: -8195627329444483539
+    second: card_25
+  - first:
+      213: 7121121542154994164
+    second: card_26
+  - first:
+      213: -5700552110049869563
+    second: card_27
+  - first:
+      213: 2328419392559176251
+    second: card_28
+  - first:
+      213: 8852296037750511041
+    second: card_29
+  - first:
+      213: 4154073768842987811
+    second: card_30
+  - first:
+      213: 2693357738077268862
+    second: card_31
+  - first:
+      213: 5687146191882094190
+    second: card_32
+  - first:
+      213: 5480723006670331781
+    second: card_33
+  - first:
+      213: -5784673579272902198
+    second: card_34
+  - first:
+      213: -7692873824269194333
+    second: card_35
+  - first:
+      213: 3973600948975352649
+    second: card_36
+  - first:
+      213: 6337735234584906332
+    second: card_37
+  - first:
+      213: 7715251158851104233
+    second: card_38
+  - first:
+      213: -5170238488712253943
+    second: card_39
+  - first:
+      213: -1726152090308212849
+    second: card_40
+  - first:
+      213: 8027130820998465553
+    second: card_41
+  - first:
+      213: 3993158690706090220
+    second: card_42
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: card_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1250
+        width: 1250
+        height: 1250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 929d5e1449c750840800000000000000
+      internalID: 5189691121816951081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: card_1
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 1250
+        width: 1250
+        height: 1250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 362182e137b8700f0800000000000000
+      internalID: -1150797853226429853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: card_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1250
+        height: 1250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0de14195393100a30800000000000000
+      internalID: 4179361977775431376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: card_3
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 0
+        width: 1250
+        height: 1250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86de1826334f70f20800000000000000
+      internalID: 3388945746152779112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e322878c77436104ebf2d0384fe75416
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":2.0,"y":2.0},"gridSpriteSize":{"x":1250.0,"y":1250.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      card_0: 5189691121816951081
+      card_1: -1150797853226429853
+      card_2: 4179361977775431376
+      card_3: 3388945746152779112
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

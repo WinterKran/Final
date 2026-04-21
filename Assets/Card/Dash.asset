@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a78901dcf8e086f4e9d14eb208352f79, type: 3}
+  m_Name: Dash
+  m_EditorClassIdentifier: Assembly-CSharp::Card
+  cardName: Dash
+  type: 2
+  skillType: 2
+  damage: 0
+  cooldown: 0
+  icon: {fileID: 5189691121816951081, guid: ecba7d72b6c39e3499b5936ed6a49bd0, type: 3}
+  skillPrefab: {fileID: 3376575540690913836, guid: 4659debd783bdb8489c45b3f46267f31, type: 3}
+  hitBoxSize: {x: 1, y: 1}
