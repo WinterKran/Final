@@ -15,18 +15,9 @@ public class Health : MonoBehaviour
         onHealthChanged?.Invoke(currentHealth / maxHealth);
     }
 
-    public virtual void TakeDamage(float dmg)
+    public virtual void TakeDamage(float dmg, Vector2 sourcePos)
     {
-        currentHealth -= dmg;
-        currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
-
-        onHealthChanged?.Invoke(currentHealth / maxHealth);
-
-        if (currentHealth <= 0)
-        {
-            onDeath?.Invoke();
-            Destroy(gameObject);
-        }
+        ApplyDamage(dmg);
     }
 
     public void Heal(float amount)
@@ -35,5 +26,30 @@ public class Health : MonoBehaviour
         currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
 
         onHealthChanged?.Invoke(currentHealth / maxHealth);
+    }
+
+    protected void ApplyDamage(float dmg)
+    {
+        currentHealth -= dmg;
+        currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
+
+        onHealthChanged?.Invoke(currentHealth / maxHealth);
+
+        if (currentHealth <= 0)
+            Die();
+    }
+
+    protected virtual void Die()
+    {
+        onDeath?.Invoke();
+
+        if (CompareTag("Player"))
+        {
+            GetComponent<PlayerMovement>().Respawn();
+            currentHealth = maxHealth;
+            return;
+        }
+
+        Destroy(gameObject);
     }
 }

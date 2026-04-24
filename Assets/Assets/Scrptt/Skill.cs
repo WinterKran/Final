@@ -30,7 +30,7 @@ public class Skill : MonoBehaviour
                 break;
 
             case SkillType.AreaHit:
-                lifeTime = 1f;
+                lifeTime = 3f;
                 break;
 
             case SkillType.Trap:
@@ -58,14 +58,30 @@ public class Skill : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
 {
+    Vector2 hitPos = transform.position;
+
     if (other.CompareTag("Enemy"))
     {
-        other.GetComponent<Enemy>().TakeDamage(damage);
+        var hp = other.GetComponent<Enemy>();
+        if (hp != null) hp.TakeDamage(damage);
     }
 
     if (other.CompareTag("Boss"))
     {
-        other.GetComponent<Boss>().TakeDamage(damage);
+        var hp = other.GetComponent<Boss>();
+        if (hp != null) hp.TakeDamage(damage, hitPos);
+    }
+
+    if (other.CompareTag("Boss2"))
+    {
+        var hp = other.GetComponent<Boss2>();
+        if (hp != null) hp.TakeDamage(damage, hitPos);
+    }
+
+    if (other.CompareTag("Boss3"))
+    {
+        var hp = other.GetComponent<Boss3>();
+        if (hp != null) hp.TakeDamage(damage, hitPos);
     }
 
     if (type == SkillType.Trap && other.CompareTag("Player"))

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a78901dcf8e086f4e9d14eb208352f79, type: 3}
+  m_Name: Teleport
+  m_EditorClassIdentifier: Assembly-CSharp::Card
+  cardName: Teleport
+  type: 5
+  skillType: 2
+  damage: 0
+  cooldown: 0
+  icon: {fileID: -2111623920, guid: 2f3ba6a6138abee42b83cc4493060aa7, type: 3}
+  skillPrefab: {fileID: 1585284858834751003, guid: 320bae478f073a34eb5200e764c00847, type: 3}
+  hitBoxSize: {x: 0, y: 0}

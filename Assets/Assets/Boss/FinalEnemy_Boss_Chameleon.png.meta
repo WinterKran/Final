@@ -1,0 +1,2718 @@
+fileFormatVersion: 2
+guid: d5ec24327332b4e45871089459227bc8
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1552
+        width: 232
+        height: 348
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bee2111740f2ef4d95cd48fd9419359
+      internalID: -576092733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_1
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 1552
+        width: 225
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d5f3e89d23cedf4dad99d5a8fca6ad5
+      internalID: 316380124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_2
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 1552
+        width: 293
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 329c078be6d561d48962724c4328ce63
+      internalID: 928100637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_3
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 1820
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3e474cd70b64ba4fbcb01ff17cae9c8
+      internalID: -743382137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_4
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 1813
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dcb5712b989a084d81f82b3eda1cbaf
+      internalID: -677428072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_5
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 1820
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29384b5386b3c2d41aeb5055170e1604
+      internalID: -402794354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_6
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 1820
+        width: 41
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af69f2cc00450aa4fb2b3e18f7df9614
+      internalID: 963354318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_7
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 1820
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41b4d775b4b7d4042a68a44a2bdfff0d
+      internalID: -1086971489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_8
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 1821
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99b95b6f945f358468798591e6c080aa
+      internalID: 1907622972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_9
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 1813
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b3eea772b1547e438d3e3b2071bb8e7
+      internalID: 167279855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_10
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 1771
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7395ce382140c5d47b82c0d52fef0243
+      internalID: -2073832712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_11
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 1771
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf1b55c9ed618094eb50090cd15aa68f
+      internalID: -1519876950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_12
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 1771
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a78253db6dc27504195be041e2118ac5
+      internalID: -1337409553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_13
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 1771
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af025d3e6b71af84388a5f20af9f598e
+      internalID: -2122396623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_14
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 1771
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1995f31895261b3479e9c1a66f5e0d1c
+      internalID: -1430651215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_15
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 1771
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6026f2cb16390a14b89c1f52e8c64f9e
+      internalID: -558542138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_16
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1195
+        width: 240
+        height: 345
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee0654351eba69a42812c39078fdb0c4
+      internalID: -312181774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_17
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1218
+        width: 230
+        height: 323
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d55883d2b58567e4cbb07b2c876c4c61
+      internalID: 846299638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_18
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1280
+        width: 212
+        height: 259
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8979cb28feece0343821d31a4ef1ff56
+      internalID: 966918828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_19
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 1323
+        width: 212
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d92db4f1ffffd294bad0c4e8767009d2
+      internalID: -1792239674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_20
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 1362
+        width: 162
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a2141d331d53de4ab71499464b6b58c
+      internalID: -1428236185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_21
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 1364
+        width: 141
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f5b880de179bed41bb34d0ed1ffcab4
+      internalID: 1930573606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_22
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 1496
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 357a69346620145418321f189844f829
+      internalID: -28543131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_23
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 1519
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 218e36ea2ac3edd4e8520b696d601db9
+      internalID: 469824312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_24
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 1496
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa487d02b201bae43907d3072a19a2fe
+      internalID: -1713788707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_25
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 1519
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf5a1bc1e8a598f43b56f5d36cdc8ad1
+      internalID: -486082925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_26
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 1496
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d022ed472fd267f42b7cc6041ccf2138
+      internalID: -2134752760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_27
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 1496
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbde241b8f3106843875973bb71fe202
+      internalID: -2121994816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_28
+      rect:
+        serializedVersion: 2
+        x: 1655
+        y: 1496
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6bccf0f5d3583d428fe8d0a77957182
+      internalID: -2129859518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_29
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 1496
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50581e7c95f46274ba2d9f0e7f9f02a0
+      internalID: -975644544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_30
+      rect:
+        serializedVersion: 2
+        x: 1721
+        y: 1496
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d2cc3342d41c9f458107fd33cb5c9dd
+      internalID: -1026771207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_31
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 1496
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 511de7bd7fd4bac48b2611a5f3165280
+      internalID: 2084717985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_32
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 1488
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ced2bc36b4f933f43bbb8d03fa457bb8
+      internalID: -1015079497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_33
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 1444
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 904f5ece89b6748439105e4e67ca2f7b
+      internalID: 1324551332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_34
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 1446
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33fa3e7b5c29dd94aadb8b08ce0e7313
+      internalID: -94725908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_35
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 1446
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97b0f555619a5a64193158544775cb90
+      internalID: -1318347974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_36
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 1444
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7072fcfdc610474f8effeb3d70220c3
+      internalID: 1638861180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_37
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 1446
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4f52241430803d44a3c89cbd3e1c7f6
+      internalID: -446703330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_38
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 1444
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 766ac6b599e09484396c27ed7f0b01ea
+      internalID: -1026127774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_39
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 1431
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d1f1db57277ef4cb34d7d7c31381c1
+      internalID: 1884105173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_40
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 1433
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d19f8531016cf148bed248c5fe4ee47
+      internalID: -1704568432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_41
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 1421
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 022c4f276b4ab6e4e8a11ae0aee9227d
+      internalID: -638194502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_42
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 1383
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48b4a433d3ce2cf46989423b8e21288f
+      internalID: 322005487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_43
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 1385
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e21fa166abff5a54486a6deb2289a1db
+      internalID: 286237754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_44
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1314
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe37d76552c9f3646b1b864deef40eb8
+      internalID: -1986897674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_45
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 1317
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc85ba03d4cb674584c8772763330ef
+      internalID: 811416449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_46
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 1296
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6fedfede8730e94fb9af4d13d045986
+      internalID: 161572525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_47
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 1245
+        width: 38
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c0980b15ad55214e960ed79ecc04309
+      internalID: 1260986124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_48
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 1299
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef1dc10a07905d448494c0bbe19e7dc
+      internalID: 181350189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_49
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 1256
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e9a56b2514f3d44c88001b3db570fb8
+      internalID: -1323618079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_50
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 1282
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0f861ed9a1af354ea9ecaa199fbd25e
+      internalID: -234746348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_51
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 1285
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ebc4c497a4af7c4f99b0f1225bca452
+      internalID: 930336700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_52
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 1268
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0fe98bbbcca6c3459171943ebf9ca66
+      internalID: -88188514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_53
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 1232
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd585e1fa75cf3d4f8558035073b6244
+      internalID: -662559816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_54
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 1250
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90b630e94c1d3b042be979b8772500a4
+      internalID: -1356058892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_55
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 1232
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1acc290abf121e4cb16bd6531108aaf
+      internalID: 1046117097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_56
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 1217
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f03b9f1143e83d149bb4a449e369a2a5
+      internalID: -2111024460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_57
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 1206
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73f967554ad1ad141bf18aa6aa2a2f50
+      internalID: -275921600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_58
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 736
+        width: 468
+        height: 474
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a99bda98bdea68429c17cb0c8addb44
+      internalID: 1275929334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_59
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 731
+        width: 225
+        height: 438
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4cf14dc895aecc41bcc90de03033a0a
+      internalID: 799360678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_60
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 732
+        width: 218
+        height: 452
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24fd49330bf5a8b41b9f5ec87c10d796
+      internalID: -1936069520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_61
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 727
+        width: 547
+        height: 359
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 784f9e80dd3e92e42a4c449db6ba0248
+      internalID: 351590167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_62
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 1043
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b14334715609ef44ea93cb6227561e88
+      internalID: -844541858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_63
+      rect:
+        serializedVersion: 2
+        x: 1779
+        y: 1066
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5019166cee82cad4d97da52f787b6f66
+      internalID: 301772257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_64
+      rect:
+        serializedVersion: 2
+        x: 1772
+        y: 1043
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e640235f812c69a4d979f02ff4b98d6d
+      internalID: 521357152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_65
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1035
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c5eb221d82cde04d9d5d5c3627431ef
+      internalID: -1367576982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_66
+      rect:
+        serializedVersion: 2
+        x: 1748
+        y: 992
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24dbc5512dcf2604b8bc21b93082e237
+      internalID: -976221308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_67
+      rect:
+        serializedVersion: 2
+        x: 1771
+        y: 992
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee19d7b31e7a09e43a6c38f7c78f541b
+      internalID: 933959412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_68
+      rect:
+        serializedVersion: 2
+        x: 1793
+        y: 993
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe7b87dce7221a458efa39c8d2a926e
+      internalID: 652488255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_69
+      rect:
+        serializedVersion: 2
+        x: 1816
+        y: 993
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a28cbc79c92935643a673b3a9ac26e10
+      internalID: 1458459240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_70
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 992
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8974daf5bef3094438aec4b1f985f92b
+      internalID: 550292283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_71
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 992
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b24576463e69504c830621ddd28e1e7
+      internalID: -1371806221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_72
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 529
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c9f5197e842d25438b79da9f0f9dbd5
+      internalID: 1161297278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_73
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 552
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ee4092826b8ba3419f9d7d26d0fae66
+      internalID: -497323583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_74
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 19
+        width: 404
+        height: 568
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c95a611c601d6c44990f27c6aee658a1
+      internalID: -84097707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_75
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 528
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 917b3c75347d64745a9be266e66dbbef
+      internalID: -1171779711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_76
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 521
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ce77ce103cde5448f46ce064a70f3c
+      internalID: -338000037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_77
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 528
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50c2875fe2c873442a433d423d96d47a
+      internalID: 1402185566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_78
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 528
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 824e9bb4a33861a4da8d6eb31685d9a9
+      internalID: -828269030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_79
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 479
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 151aab2e5a2437d4ebb7d5158d3f7281
+      internalID: -1516286730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_80
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 479
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e2f9539504d6d843a87d8518606276c
+      internalID: -1657102220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_81
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 479
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 965af8ad374cb7e4abbc3f6dd2463579
+      internalID: 1973540841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_82
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 479
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc1c597bb42304244b5d0a8e33ffcba5
+      internalID: -402172667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_83
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 376
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42b49fb404a598c48adb5b7d1b2ccbe7
+      internalID: 666813069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_84
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 401
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53abde0a873f3244a81fb4f42e7150c5
+      internalID: 551651025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_85
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 378
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c41a9b53c4f60c45ac18afb63c8d2b5
+      internalID: 1141543796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_86
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 376
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dba854e8b28371c41897e84b6e2fe26f
+      internalID: 2098275561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_87
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 376
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d03e37d914260634baf1505a9b30f5e3
+      internalID: -954571074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_88
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 376
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60476a9f97e5cbb478a3a2af0f5f8f82
+      internalID: 693759916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_89
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 328
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd8ada6ca567e2a4584ee70143826a5c
+      internalID: 1636524939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_90
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 328
+        width: 42
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c319838e9bde9d4a8fd6e79e3d2e701
+      internalID: -1786179289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_91
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 328
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4ce8d0f50edbd94a8789517e4679de6
+      internalID: 258637687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_92
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 328
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56433a8902c362242b76171565dff120
+      internalID: -649166235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_93
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 328
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0379c986b88181a47ba960e5f3427825
+      internalID: 1133179607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_94
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 328
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb3295608241bf4094a16a8d06860c4
+      internalID: 753507568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_95
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 328
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f07bd6b8dba412743a08b032f48e2f62
+      internalID: -2133876658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_96
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 278
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e052658111e0d48ae19e3aa11539c0
+      internalID: -1565988044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_97
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 278
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 196668af449271946b6b4f82e36d70fc
+      internalID: -1967167255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_98
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 276
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7ad877878ff93044a7e9b50585f12b9
+      internalID: -1349863916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_99
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 278
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c4780d0a085a444a8ff539698b7c070
+      internalID: 1502232904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_100
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 276
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70862ad7f64b723449bb33db4ebf5624
+      internalID: -71594732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_101
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 224
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8a650a4bd880ff4d9fc4486f85d7bce
+      internalID: 972438967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_102
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 251
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd2e92a26b9d95f4bb167083764b9ae7
+      internalID: 2064858623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_103
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 228
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e2b2799a441e5b46b0b5d9b8000a370
+      internalID: -1585022030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_104
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 225
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3114aedd64e50464ebe57a559538ba50
+      internalID: -812783682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_105
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 060b3f3a2e4d0d64a8d136320e1eea7e
+      internalID: -993037136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_106
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 216
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 534264b2df1b23942bddfa3daa527b07
+      internalID: 708232892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_107
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 224
+        width: 43
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e2773a65aefc5f448eb34276ef1adbf
+      internalID: -2090226624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_108
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 228
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7969010dd15f2546b9f99d49e0c572a
+      internalID: 599949683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_109
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 228
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89982739a806acc4e8add5ab03e87062
+      internalID: 84000516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_110
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 175
+        width: 40
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d24bd3de7a6abe4284889b8db3d1241
+      internalID: -1020240944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_111
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 175
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c333c5b12caf35849b41396af444e2f2
+      internalID: 289139276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Boss_Chameleon_112
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 167
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bce2fb21695d224984ad08645c1521f
+      internalID: 1539772176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a786c044da96a2a4bbab59a1c6784001
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      FinalEnemy_Boss_Chameleon_0: -576092733
+      FinalEnemy_Boss_Chameleon_1: 316380124
+      FinalEnemy_Boss_Chameleon_10: -2073832712
+      FinalEnemy_Boss_Chameleon_100: -71594732
+      FinalEnemy_Boss_Chameleon_101: 972438967
+      FinalEnemy_Boss_Chameleon_102: 2064858623
+      FinalEnemy_Boss_Chameleon_103: -1585022030
+      FinalEnemy_Boss_Chameleon_104: -812783682
+      FinalEnemy_Boss_Chameleon_105: -993037136
+      FinalEnemy_Boss_Chameleon_106: 708232892
+      FinalEnemy_Boss_Chameleon_107: -2090226624
+      FinalEnemy_Boss_Chameleon_108: 599949683
+      FinalEnemy_Boss_Chameleon_109: 84000516
+      FinalEnemy_Boss_Chameleon_11: -1519876950
+      FinalEnemy_Boss_Chameleon_110: -1020240944
+      FinalEnemy_Boss_Chameleon_111: 289139276
+      FinalEnemy_Boss_Chameleon_112: 1539772176
+      FinalEnemy_Boss_Chameleon_12: -1337409553
+      FinalEnemy_Boss_Chameleon_13: -2122396623
+      FinalEnemy_Boss_Chameleon_14: -1430651215
+      FinalEnemy_Boss_Chameleon_15: -558542138
+      FinalEnemy_Boss_Chameleon_16: -312181774
+      FinalEnemy_Boss_Chameleon_17: 846299638
+      FinalEnemy_Boss_Chameleon_18: 966918828
+      FinalEnemy_Boss_Chameleon_19: -1792239674
+      FinalEnemy_Boss_Chameleon_2: 928100637
+      FinalEnemy_Boss_Chameleon_20: -1428236185
+      FinalEnemy_Boss_Chameleon_21: 1930573606
+      FinalEnemy_Boss_Chameleon_22: -28543131
+      FinalEnemy_Boss_Chameleon_23: 469824312
+      FinalEnemy_Boss_Chameleon_24: -1713788707
+      FinalEnemy_Boss_Chameleon_25: -486082925
+      FinalEnemy_Boss_Chameleon_26: -2134752760
+      FinalEnemy_Boss_Chameleon_27: -2121994816
+      FinalEnemy_Boss_Chameleon_28: -2129859518
+      FinalEnemy_Boss_Chameleon_29: -975644544
+      FinalEnemy_Boss_Chameleon_3: -743382137
+      FinalEnemy_Boss_Chameleon_30: -1026771207
+      FinalEnemy_Boss_Chameleon_31: 2084717985
+      FinalEnemy_Boss_Chameleon_32: -1015079497
+      FinalEnemy_Boss_Chameleon_33: 1324551332
+      FinalEnemy_Boss_Chameleon_34: -94725908
+      FinalEnemy_Boss_Chameleon_35: -1318347974
+      FinalEnemy_Boss_Chameleon_36: 1638861180
+      FinalEnemy_Boss_Chameleon_37: -446703330
+      FinalEnemy_Boss_Chameleon_38: -1026127774
+      FinalEnemy_Boss_Chameleon_39: 1884105173
+      FinalEnemy_Boss_Chameleon_4: -677428072
+      FinalEnemy_Boss_Chameleon_40: -1704568432
+      FinalEnemy_Boss_Chameleon_41: -638194502
+      FinalEnemy_Boss_Chameleon_42: 322005487
+      FinalEnemy_Boss_Chameleon_43: 286237754
+      FinalEnemy_Boss_Chameleon_44: -1986897674
+      FinalEnemy_Boss_Chameleon_45: 811416449
+      FinalEnemy_Boss_Chameleon_46: 161572525
+      FinalEnemy_Boss_Chameleon_47: 1260986124
+      FinalEnemy_Boss_Chameleon_48: 181350189
+      FinalEnemy_Boss_Chameleon_49: -1323618079
+      FinalEnemy_Boss_Chameleon_5: -402794354
+      FinalEnemy_Boss_Chameleon_50: -234746348
+      FinalEnemy_Boss_Chameleon_51: 930336700
+      FinalEnemy_Boss_Chameleon_52: -88188514
+      FinalEnemy_Boss_Chameleon_53: -662559816
+      FinalEnemy_Boss_Chameleon_54: -1356058892
+      FinalEnemy_Boss_Chameleon_55: 1046117097
+      FinalEnemy_Boss_Chameleon_56: -2111024460
+      FinalEnemy_Boss_Chameleon_57: -275921600
+      FinalEnemy_Boss_Chameleon_58: 1275929334
+      FinalEnemy_Boss_Chameleon_59: 799360678
+      FinalEnemy_Boss_Chameleon_6: 963354318
+      FinalEnemy_Boss_Chameleon_60: -1936069520
+      FinalEnemy_Boss_Chameleon_61: 351590167
+      FinalEnemy_Boss_Chameleon_62: -844541858
+      FinalEnemy_Boss_Chameleon_63: 301772257
+      FinalEnemy_Boss_Chameleon_64: 521357152
+      FinalEnemy_Boss_Chameleon_65: -1367576982
+      FinalEnemy_Boss_Chameleon_66: -976221308
+      FinalEnemy_Boss_Chameleon_67: 933959412
+      FinalEnemy_Boss_Chameleon_68: 652488255
+      FinalEnemy_Boss_Chameleon_69: 1458459240
+      FinalEnemy_Boss_Chameleon_7: -1086971489
+      FinalEnemy_Boss_Chameleon_70: 550292283
+      FinalEnemy_Boss_Chameleon_71: -1371806221
+      FinalEnemy_Boss_Chameleon_72: 1161297278
+      FinalEnemy_Boss_Chameleon_73: -497323583
+      FinalEnemy_Boss_Chameleon_74: -84097707
+      FinalEnemy_Boss_Chameleon_75: -1171779711
+      FinalEnemy_Boss_Chameleon_76: -338000037
+      FinalEnemy_Boss_Chameleon_77: 1402185566
+      FinalEnemy_Boss_Chameleon_78: -828269030
+      FinalEnemy_Boss_Chameleon_79: -1516286730
+      FinalEnemy_Boss_Chameleon_8: 1907622972
+      FinalEnemy_Boss_Chameleon_80: -1657102220
+      FinalEnemy_Boss_Chameleon_81: 1973540841
+      FinalEnemy_Boss_Chameleon_82: -402172667
+      FinalEnemy_Boss_Chameleon_83: 666813069
+      FinalEnemy_Boss_Chameleon_84: 551651025
+      FinalEnemy_Boss_Chameleon_85: 1141543796
+      FinalEnemy_Boss_Chameleon_86: 2098275561
+      FinalEnemy_Boss_Chameleon_87: -954571074
+      FinalEnemy_Boss_Chameleon_88: 693759916
+      FinalEnemy_Boss_Chameleon_89: 1636524939
+      FinalEnemy_Boss_Chameleon_9: 167279855
+      FinalEnemy_Boss_Chameleon_90: -1786179289
+      FinalEnemy_Boss_Chameleon_91: 258637687
+      FinalEnemy_Boss_Chameleon_92: -649166235
+      FinalEnemy_Boss_Chameleon_93: 1133179607
+      FinalEnemy_Boss_Chameleon_94: 753507568
+      FinalEnemy_Boss_Chameleon_95: -2133876658
+      FinalEnemy_Boss_Chameleon_96: -1565988044
+      FinalEnemy_Boss_Chameleon_97: -1967167255
+      FinalEnemy_Boss_Chameleon_98: -1349863916
+      FinalEnemy_Boss_Chameleon_99: 1502232904
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -5,7 +5,9 @@ public enum CardType
     Slash,
     Dash,
     Fireball,
-    Fire
+    Fire,
+    crystal,
+    Shadow
 }
 
 public enum SkillType

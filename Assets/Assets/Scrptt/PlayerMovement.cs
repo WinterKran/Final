@@ -1,5 +1,5 @@
+using System.Collections;
 using UnityEngine;
-
 public class PlayerMovement : MonoBehaviour
 {
     public float walkSpeed = 5f;
@@ -22,63 +22,72 @@ public class PlayerMovement : MonoBehaviour
     public LayerMask groundLayer;
     private bool isGrounded;
 
+    public float knockbackForce = 12f;
+    public float knockbackDuration = 0.2f;
+
+    bool isInvincible = false;
+    public float invincibleTime = 0.5f;
+
+    private bool isKnocked = false;
+
+
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
     }
 
-    void Update()
-    {
-        moveInput = Input.GetAxisRaw("Horizontal");
-
-        currentSpeed = Input.GetKey(KeyCode.LeftShift) ? runSpeed : walkSpeed;
-
-        isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, groundLayer);
-
-        bool isMoving = Mathf.Abs(moveInput) > 0.01f;
-
-        // 🪶 Coyote time
-        if (isGrounded)
-            coyoteCounter = coyoteTime;
-        else
+   void Update()
 {
-    coyoteCounter -= Time.deltaTime;
-    coyoteCounter = Mathf.Max(coyoteCounter, 0);
-}
+    if (isKnocked) return; // ❗ หยุดควบคุมตอนโดน knockback
 
-        // ⚔️ Jump (ใช้แค่ระบบเดียว)
-        if (Input.GetKeyDown(KeyCode.Space) && coyoteCounter > 0)
+    moveInput = Input.GetAxisRaw("Horizontal");
+
+    currentSpeed = Input.GetKey(KeyCode.LeftShift) ? runSpeed : walkSpeed;
+
+    isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, groundLayer);
+
+    bool isMoving = Mathf.Abs(moveInput) > 0.01f;
+
+    if (isGrounded)
+        coyoteCounter = coyoteTime;
+    else
+    {
+        coyoteCounter -= Time.deltaTime;
+        coyoteCounter = Mathf.Max(coyoteCounter, 0);
+    }
+
+    if (Input.GetKeyDown(KeyCode.Space) && coyoteCounter > 0)
     {
         rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
         coyoteCounter = 0;
     }
 
-        // 🔄 หันหน้า
-        if (moveInput != 0)
-        {
-            transform.localScale = new Vector3(Mathf.Sign(moveInput), 1, 1);
-        }
-
-            animator.SetBool("isRunning", isMoving && Input.GetKey(KeyCode.LeftShift));
-            animator.SetBool("isWalking", isMoving && !Input.GetKey(KeyCode.LeftShift));
-            animator.SetBool("isGrounded", isGrounded);
-            animator.SetFloat("yVelocity", rb.linearVelocity.y);
+    if (moveInput != 0)
+    {
+        transform.localScale = new Vector3(Mathf.Sign(moveInput), 1, 1);
     }
+
+    animator.SetBool("isRunning", isMoving && Input.GetKey(KeyCode.LeftShift));
+    animator.SetBool("isWalking", isMoving && !Input.GetKey(KeyCode.LeftShift));
+    animator.SetBool("isGrounded", isGrounded);
+    animator.SetFloat("yVelocity", rb.linearVelocity.y);
+}
 
     void FixedUpdate()
-    {
-        float targetSpeed = moveInput * currentSpeed;
+{
+    if (isKnocked) return; // ❗ กัน movement กลบแรงกระเด็น
 
-        float speedDiff = targetSpeed - rb.linearVelocity.x;
+    float targetSpeed = moveInput * currentSpeed;
+    float speedDiff = targetSpeed - rb.linearVelocity.x;
+    float movement = speedDiff * acceleration * Time.fixedDeltaTime;
 
-        float movement = speedDiff * acceleration * Time.fixedDeltaTime;
-
-        rb.linearVelocity = new Vector2(
-            rb.linearVelocity.x + movement,
-            rb.linearVelocity.y
-        );
-    }
+    rb.linearVelocity = new Vector2(
+        rb.linearVelocity.x + movement,
+        rb.linearVelocity.y
+    );
+}
 
     void OnDrawGizmosSelected()
     {
@@ -88,4 +97,83 @@ public class PlayerMovement : MonoBehaviour
             Gizmos.DrawWireSphere(groundCheck.position, checkRadius);
         }
     }
+
+    public void TakeDamage(float dmg, Vector2 sourcePos)
+{
+    if (isInvincible) return;
+
+    // ลดเลือด
+
+    Vector2 dir = (transform.position - (Vector3)sourcePos).normalized;
+    dir.y = 0.5f; // 🔥 ดันขึ้นนิดนึง
+    dir = dir.normalized;
+    StartCoroutine(Knockback(dir));
+    StartCoroutine(Invincible());
+}
+
+IEnumerator Invincible()
+{
+    isInvincible = true;
+    yield return new WaitForSeconds(invincibleTime);
+    isInvincible = false;
+}
+
+IEnumerator Knockback(Vector2 dir)
+{
+    isKnocked = true;
+
+    rb.linearVelocity = Vector2.zero;
+    rb.AddForce(dir * knockbackForce, ForceMode2D.Impulse);
+
+    yield return new WaitForSeconds(knockbackDuration);
+
+    isKnocked = false;
+}
+public Health health;
+
+public void Respawn()
+{
+    float x = PlayerPrefs.GetFloat("cp_x", transform.position.x);
+    float y = PlayerPrefs.GetFloat("cp_y", transform.position.y);
+    float z = PlayerPrefs.GetFloat("cp_z", transform.position.z);
+
+    transform.position = new Vector3(x, y, z);
+
+    // รีเซ็ต HP
+    if (health != null)
+    {
+        health.currentHealth = health.maxHealth;
+        health.onHealthChanged?.Invoke(1f);
+    }
+
+    // reset state
+    isKnocked = false;
+    isInvincible = false;
+    rb.linearVelocity = Vector2.zero;
+
+    // ✅ เรียกแค่ครั้งเดียว
+    if (GameManager.instance != null)
+    {
+        GameManager.instance.ResetAllBosses();
+    }
+}
+
+public void RespawnInternal()
+{
+    float x = PlayerPrefs.GetFloat("cp_x", transform.position.x);
+    float y = PlayerPrefs.GetFloat("cp_y", transform.position.y);
+    float z = PlayerPrefs.GetFloat("cp_z", transform.position.z);
+
+    transform.position = new Vector3(x, y, z);
+
+    if (health != null)
+    {
+        health.currentHealth = health.maxHealth;
+        health.onHealthChanged?.Invoke(1f);
+    }
+
+    isKnocked = false;
+    isInvincible = false;
+    rb.linearVelocity = Vector2.zero;
+}
 }

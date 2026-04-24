@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a78901dcf8e086f4e9d14eb208352f79, type: 3}
+  m_Name: Fish
+  m_EditorClassIdentifier: Assembly-CSharp::Card
+  cardName: Frezz
+  type: 3
+  skillType: 0
+  damage: 20
+  cooldown: 0
+  icon: {fileID: -1291781694, guid: 85bbf6083f3c8684ea03c9f928cc6cb5, type: 3}
+  skillPrefab: {fileID: 8342213148228467857, guid: ea7e9946a8b786c448efc9546ca2b2ec, type: 3}
+  hitBoxSize: {x: 2, y: 2}

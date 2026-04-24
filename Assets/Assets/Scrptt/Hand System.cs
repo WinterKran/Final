@@ -21,6 +21,12 @@ public class Hand : MonoBehaviour
     public TMPro.TextMeshProUGUI comboText;
     public int maxCombo = 10;
 
+    public Card fireSpecial;
+    public Card crystalSpecial;
+    public Card ShadowSpecial;
+
+    private Dictionary<CardType, int> combo = new Dictionary<CardType, int>();
+
 public Card specialCardReward;
 
     public void AddCard(Card card)
@@ -69,33 +75,48 @@ public void UseCard(int index)
 
     void UpdateCombo(Card usedCard)
 {
-    if (usedCard.type == lastUsedType)
-    {
-        comboCount++;
-    }
-    else
-    {
-        lastUsedType = usedCard.type;
-        comboCount = 1;
-    }
-    UpdateComboUI(); // 👈 เพิ่มตรงนี้
+    CardType type = usedCard.type;
 
-    Debug.Log("" + comboCount);
+    if (!combo.ContainsKey(type))
+        combo[type] = 0;
 
-    if (comboCount >= 5)
+    combo[type]++;
+
+    UpdateComboUI();
+
+    Debug.Log(type + " combo: " + combo[type]);
+
+    if (combo[type] >= 5)
     {
-        GiveSpecialCard();
-        comboCount = 0;
+        combo[type] = 0;
+        GiveSpecialCard(type);
     }
 }
 
-void GiveSpecialCard()
+void GiveSpecialCard(CardType type)
 {
-    if (specialCardReward == null) return;
+    Card reward = null;
 
-    Debug.Log("🔥 Got Special Card!");
+    switch (type)
+    {
+        case CardType.Fire:
+            reward = fireSpecial;
+            break;
 
-    AddCard(specialCardReward);
+        case CardType.crystal:
+            reward = crystalSpecial;
+            break;
+
+        case CardType.Shadow:
+            reward = ShadowSpecial;
+            break;
+    }
+
+    if (reward == null) return;
+
+    Debug.Log("🔥 Special Card: " + type);
+
+    AddCard(reward);
 }
 
     void Update()
@@ -131,21 +152,25 @@ void SelectCard(int index)
     selectedIndex = index;
     UpdateUI();
 }
+string GetComboBar(CardType type)
+{
+    int value = combo.ContainsKey(type) ? combo[type] : 0;
+
+    string bar = "";
+
+    for (int i = 0; i < maxCombo; i++)
+        bar += (i < value) ? "█" : "░";
+
+    return bar + $" ({value}/{maxCombo})";
+}
 
 void UpdateComboUI()
 {
     if (comboText == null) return;
 
-    string bar = "";
-
-    for (int i = 0; i < maxCombo; i++)
-    {
-        if (i < comboCount)
-            bar += "█";
-        else
-            bar += "░";
-    }
-
-    comboText.text = "" + bar + $" ({comboCount}/{maxCombo})";
+    comboText.text =
+        "Fire: " + GetComboBar(CardType.Fire) + "\n" +
+        "crystal : " + GetComboBar(CardType.crystal) + "\n" +
+        "Shadow: " + GetComboBar(CardType.Shadow);
 }
 }

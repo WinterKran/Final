@@ -8,6 +8,9 @@ TagManager:
   - Ground
   - Boss
   - Wall
+  - Boss2
+  - "\u0E3Aboss3"
+  - Boss3
   layers:
   - Default
   - TransparentFX

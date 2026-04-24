@@ -1,0 +1,1039 @@
+fileFormatVersion: 2
+guid: d18a86714242a5a49afcda99c7ca8c84
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FinalEnemy_FinalBoss2_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 939
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1670fdb2593968c4184291c44004c999
+      internalID: 609365185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_FinalBoss2_1
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 934
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db484b9358dd74146b40f02c937c45e6
+      internalID: -1046380629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_FinalBoss2_2
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 934
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faba5f213496fd04295ba6f3f7835943
+      internalID: 647387893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_FinalBoss2_3
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 934
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dced8083cc7ca1b44ac59c860449f045
+      internalID: -758351167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_FinalBoss2_4
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 934
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 274d4eab643ce254ba06d98b9fa40551
+      internalID: -728283854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_FinalBoss2_5
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 934
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 521c5c1f1e087134d8e73895c6e97dbd
+      internalID: -361633723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_FinalBoss2_6
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 934
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 836b355b2e8ad8f4b86f1e584110e3df
+      internalID: 210940849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_FinalBoss2_7
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 934
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0cd2389ffa9bd846a7dc0ddc3c763f2
+      internalID: 1465106468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_FinalBoss2_8
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 934
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be0bfed96ba3a7b4e80261c9fb0572d2
+      internalID: 445810608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_FinalBoss2_9
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 934
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d6cb38260a4dd343ae1ec1351d84bfb
+      internalID: 214024076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_FinalBoss2_10
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 799
+        width: 139
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a65a32cc6e6e084d94c422b0f55d280
+      internalID: 561408753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_FinalBoss2_11
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 484
+        width: 266
+        height: 281
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e1ada5aa893b3543bcabd8cf54b1d92
+      internalID: -733218622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_FinalBoss2_12
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 757
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee1237c1929a5464cbe3f4c2c1b1b4fd
+      internalID: -203580833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_FinalBoss2_13
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 757
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c3e338e8872ac342a5b4d765a7e4b60
+      internalID: -1133109581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_FinalBoss2_14
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 757
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2475806ead010aa4fbc62137007be93f
+      internalID: -106732621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_FinalBoss2_15
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 757
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91f300fc8e3a245408b2ed9ae8193781
+      internalID: -690844485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_FinalBoss2_16
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 539
+        width: 208
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b98347accf701974891ffa69fa980243
+      internalID: -657276676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_FinalBoss2_17
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 540
+        width: 213
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3866f766a621aa429b7bbcb7fe0bfce
+      internalID: -73025751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_FinalBoss2_18
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 544
+        width: 215
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eec9929ccaf2a3439b9b31db00af465
+      internalID: 1524426413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_FinalBoss2_19
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 551
+        width: 222
+        height: 167
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d22f210fb1fe056408196edacd0ec0b0
+      internalID: 1065649662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_FinalBoss2_20
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 91
+        width: 390
+        height: 309
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a9555794f4d6bf488292b54c0212851
+      internalID: 1181394861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_FinalBoss2_21
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 316
+        width: 234
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8075a8f8db328ed4397ed9cdafe81ea3
+      internalID: -774631648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_FinalBoss2_22
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 316
+        width: 244
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7c75c8ee4989a94fb19219bd98c6f94
+      internalID: -587233037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_FinalBoss2_23
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 317
+        width: 201
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7dbd32d02a636849b4b4232152a882c
+      internalID: -1939972675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_FinalBoss2_24
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 329
+        width: 212
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd3ec63067456314b8492762c183819f
+      internalID: -1148397095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_FinalBoss2_25
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 331
+        width: 220
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3ec1dd9b3d27cd43ae3c264b75d0b45
+      internalID: 555066942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_FinalBoss2_26
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 240
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 922a1c0850a8de44ca7b32523e8fb76f
+      internalID: 1104407343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_FinalBoss2_27
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 240
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b80963397fa95924993429cc412e614c
+      internalID: 358152729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_FinalBoss2_28
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 240
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d68e635b1aab1f41afa2a6965546efa
+      internalID: 132754933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_FinalBoss2_29
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 240
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a67f692c944c24846b6bd66850989248
+      internalID: -8648512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_FinalBoss2_30
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 24
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 811d744825524e9449e0b57d60ce138f
+      internalID: 524482168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_FinalBoss2_31
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 24
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac89bd99558e2af45853dd1bfe9835e9
+      internalID: -975795783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_FinalBoss2_32
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 24
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb340dc6afdee2c439bb70d6618eda55
+      internalID: 1232919205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_FinalBoss2_33
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 24
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 764f26f2e6ef44a409141c6ddcac7412
+      internalID: 155021184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_FinalBoss2_34
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 24
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d1f017bc9ad9e34c9a218e2eaf3340a
+      internalID: 131757189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_FinalBoss2_35
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 24
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63759f7e7cbf7be4f8bdad143dac6583
+      internalID: 459519729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_FinalBoss2_36
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 24
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7b65c6abbcceeb468f5654fd447c891
+      internalID: -135841791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_FinalBoss2_37
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 24
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83607a6396a1d7b4e93201173f0e5ba1
+      internalID: 1135108084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_FinalBoss2_38
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 24
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c11297441459ff419042ae44c453ecf
+      internalID: 1790464494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_FinalBoss2_39
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 16
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9548d9f047267c54fa5d413dd83d39b5
+      internalID: -78197785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b49e068ecf8ff784ca58d56710db16d3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      FinalEnemy_FinalBoss2_0: 609365185
+      FinalEnemy_FinalBoss2_1: -1046380629
+      FinalEnemy_FinalBoss2_10: 561408753
+      FinalEnemy_FinalBoss2_11: -733218622
+      FinalEnemy_FinalBoss2_12: -203580833
+      FinalEnemy_FinalBoss2_13: -1133109581
+      FinalEnemy_FinalBoss2_14: -106732621
+      FinalEnemy_FinalBoss2_15: -690844485
+      FinalEnemy_FinalBoss2_16: -657276676
+      FinalEnemy_FinalBoss2_17: -73025751
+      FinalEnemy_FinalBoss2_18: 1524426413
+      FinalEnemy_FinalBoss2_19: 1065649662
+      FinalEnemy_FinalBoss2_2: 647387893
+      FinalEnemy_FinalBoss2_20: 1181394861
+      FinalEnemy_FinalBoss2_21: -774631648
+      FinalEnemy_FinalBoss2_22: -587233037
+      FinalEnemy_FinalBoss2_23: -1939972675
+      FinalEnemy_FinalBoss2_24: -1148397095
+      FinalEnemy_FinalBoss2_25: 555066942
+      FinalEnemy_FinalBoss2_26: 1104407343
+      FinalEnemy_FinalBoss2_27: 358152729
+      FinalEnemy_FinalBoss2_28: 132754933
+      FinalEnemy_FinalBoss2_29: -8648512
+      FinalEnemy_FinalBoss2_3: -758351167
+      FinalEnemy_FinalBoss2_30: 524482168
+      FinalEnemy_FinalBoss2_31: -975795783
+      FinalEnemy_FinalBoss2_32: 1232919205
+      FinalEnemy_FinalBoss2_33: 155021184
+      FinalEnemy_FinalBoss2_34: 131757189
+      FinalEnemy_FinalBoss2_35: 459519729
+      FinalEnemy_FinalBoss2_36: -135841791
+      FinalEnemy_FinalBoss2_37: 1135108084
+      FinalEnemy_FinalBoss2_38: 1790464494
+      FinalEnemy_FinalBoss2_39: -78197785
+      FinalEnemy_FinalBoss2_4: -728283854
+      FinalEnemy_FinalBoss2_5: -361633723
+      FinalEnemy_FinalBoss2_6: 210940849
+      FinalEnemy_FinalBoss2_7: 1465106468
+      FinalEnemy_FinalBoss2_8: 445810608
+      FinalEnemy_FinalBoss2_9: 214024076
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

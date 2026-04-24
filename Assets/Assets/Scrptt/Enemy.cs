@@ -56,7 +56,7 @@ public class Enemy : MonoBehaviour
             Health hp = player.GetComponent<Health>();
             if (hp != null)
             {
-                hp.TakeDamage(damage);
+                hp.TakeDamage(damage, transform.position);
                 Debug.Log("Enemy hit player!");
             }
         }
