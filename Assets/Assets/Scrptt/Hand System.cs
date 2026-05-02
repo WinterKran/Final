@@ -161,7 +161,7 @@ string GetComboBar(CardType type)
     for (int i = 0; i < maxCombo; i++)
         bar += (i < value) ? "█" : "░";
 
-    return bar + $" ({value}/{maxCombo})";
+    return bar + $" ";
 }
 
 void UpdateComboUI()
@@ -169,8 +169,8 @@ void UpdateComboUI()
     if (comboText == null) return;
 
     comboText.text =
-        "Fire: " + GetComboBar(CardType.Fire) + "\n" +
-        "crystal : " + GetComboBar(CardType.crystal) + "\n" +
-        "Shadow: " + GetComboBar(CardType.Shadow);
+        "" + GetComboBar(CardType.Fire) + "\n" +
+        "" + GetComboBar(CardType.crystal) + "\n" +
+        "" + GetComboBar(CardType.Shadow);
 }
 }

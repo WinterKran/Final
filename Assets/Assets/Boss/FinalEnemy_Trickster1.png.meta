@@ -1,0 +1,1591 @@
+fileFormatVersion: 2
+guid: 7a81fff755a5d1e4aad7562b44da53c6
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FinalEnemy_Trickster1_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 530
+        width: 302
+        height: 294
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a66c160c180e98408f45d23208cea01
+      internalID: 507475510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Trickster1_1
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 527
+        width: 300
+        height: 302
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e4539f365321ce4b86188a594d956ed
+      internalID: 190021438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Trickster1_2
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 527
+        width: 300
+        height: 302
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c6f1328ed497f74fb84ea3a88346854
+      internalID: -1648121849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Trickster1_3
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 775
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b5985d3b31b875478af98df941b98ed
+      internalID: -1458366003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Trickster1_4
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 775
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 383dd937202b4094eb9c8b928451dadf
+      internalID: 517188763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Trickster1_5
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 798
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c77a49315ca3043985c8f55ae58cc6
+      internalID: 1142478942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Trickster1_6
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 767
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fa832f0b53964d489d843a1e646d851
+      internalID: -987049023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Trickster1_7
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 767
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef6a14d5e9732fa4c9e3f12efc6c65bf
+      internalID: 1505789563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Trickster1_8
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 775
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b31b5c2a3c5fc14f807e7d63948dd70
+      internalID: -1551292391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Trickster1_9
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 775
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10e4a40c83244d643ab525852b91a75f
+      internalID: 885103704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Trickster1_10
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 775
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d8422cee9d5444449aad8beeb5f2cc3
+      internalID: 446776351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Trickster1_11
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 775
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6a6e8957697048438ba675385a712c2
+      internalID: -121494796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Trickster1_12
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 775
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5661734dc389244a90e32904add5ca9
+      internalID: 1291361717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Trickster1_13
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 775
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 248662bd2411b2c46b84e069e3f5c514
+      internalID: -20974840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Trickster1_14
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 767
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23bff855eb873eb448a743d857581a70
+      internalID: -283565355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Trickster1_15
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 724
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a7be864ad3b64b478eb710fdd993bea
+      internalID: -144534423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Trickster1_16
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 748
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d39bf69b4248d2c44a1f31be06b5598e
+      internalID: 1141471609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Trickster1_17
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 724
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86f6d6f913b25784a87b4cb5fad3299a
+      internalID: 1843830860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Trickster1_18
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 724
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4953ceb5a7a2fd41a4f62bd26766d7f
+      internalID: -1009447877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Trickster1_19
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 724
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20b83b3ad4ad9cb42a9e68af7f6969b3
+      internalID: -1272407358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Trickster1_20
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 724
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad29b89e98ce08d4b8392d35001b631f
+      internalID: -1539273020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Trickster1_21
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 725
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd6067cbbf469564498e0b9f516e762f
+      internalID: 900485987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Trickster1_22
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 724
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f7ffdd52eeb2f4187bcdb8b90ead87
+      internalID: -315500081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Trickster1_23
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 724
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdedcd6eb4e41ea4c806b604e4620411
+      internalID: -1468235546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Trickster1_24
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 724
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c24b7ca68493ce4dba13327923332fa
+      internalID: 2001729478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Trickster1_25
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 111
+        width: 308
+        height: 359
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3acaa1af6f70e004dad0dcae961bc88f
+      internalID: 1712349817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Trickster1_26
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 18
+        width: 502
+        height: 481
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d9aa65490693544384b943d0cd97c14
+      internalID: -1449433089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Trickster1_27
+      rect:
+        serializedVersion: 2
+        x: 1772
+        y: 448
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b328498579a284a4b818e48189d636f7
+      internalID: 1848576895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Trickster1_28
+      rect:
+        serializedVersion: 2
+        x: 1796
+        y: 448
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8629462836fa964caddce908b4cdc7f
+      internalID: -2105898363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Trickster1_29
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 356
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e19d677af53d81c43961160b6fc18d18
+      internalID: 244583656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Trickster1_30
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 356
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1407186d59faf8e4d8b2ec420be4f2a3
+      internalID: -1671726783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Trickster1_31
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 356
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5973f7a6c1e80d345b4e82e9f5ba08b1
+      internalID: 1412091571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Trickster1_32
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 380
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76da312ba05694943b81520dc2191657
+      internalID: -1749575846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Trickster1_33
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 356
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac8cb56f9c674fb4488c4daddaa6f842
+      internalID: 385595810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Trickster1_34
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 356
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b25c0b3db792a244bc19dc80ca780cb
+      internalID: -1706166151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Trickster1_35
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 356
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 652c586013cf506459c976c5059c8b7d
+      internalID: -910527378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Trickster1_36
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 356
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82064f68c5fb63648afa3f82ca1308ec
+      internalID: 670948432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Trickster1_37
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 356
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ecfa01184ec0045a7d012164ecf794
+      internalID: 1383037708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Trickster1_38
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 349
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ace055b48013874cb4b37b63e32884f
+      internalID: -1813219797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Trickster1_39
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 356
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8814d5b9f0d3ac744bb33a8ba441d5e8
+      internalID: 2040866953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Trickster1_40
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 348
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 671e9cee0665ce549888df311815d473
+      internalID: 1249059394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Trickster1_41
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 357
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03854864ef9bf334fbcb39ce79d070ca
+      internalID: 891896546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Trickster1_42
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 356
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c4b626b242a9c41b818e42260f1a91
+      internalID: 1730483354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Trickster1_43
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 108
+        width: 293
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff151156a1923c4ca3e73d0b5122f86
+      internalID: 1699439316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Trickster1_44
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 256
+        width: 62
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10b0aa16808e7f7479d9f4f22f7c530f
+      internalID: 130895148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Trickster1_45
+      rect:
+        serializedVersion: 2
+        x: 1768
+        y: 270
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e358c2285a17c9e4f932ead4e6e74f4f
+      internalID: -20296906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Trickster1_46
+      rect:
+        serializedVersion: 2
+        x: 1789
+        y: 268
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ca1da2a4bbb7d40927ba4cb420838a
+      internalID: 1343501483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Trickster1_47
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 270
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dfd8ab201b45da4e86b6fa311e39b74
+      internalID: -1603313249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Trickster1_48
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 270
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d85f58051e87f647bfbdf702ac100d3
+      internalID: -1865551247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Trickster1_49
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 268
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1212ecc1d9165f54999c4ab148ed0fa1
+      internalID: 1509177425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Trickster1_50
+      rect:
+        serializedVersion: 2
+        x: 1923
+        y: 268
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c81036a1c6d8d664a9ddf82e8c2d95cb
+      internalID: 1865964778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Trickster1_51
+      rect:
+        serializedVersion: 2
+        x: 1798
+        y: 243
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 988b6f01d0755ba4396ea5e877415f7b
+      internalID: 2136506104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Trickster1_52
+      rect:
+        serializedVersion: 2
+        x: 1813
+        y: 220
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e11317177545c8245af71e173daddf24
+      internalID: 1130569611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Trickster1_53
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 204
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 132ac86c8c3c568459bb887e43ea57d4
+      internalID: -1472089248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Trickster1_54
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 206
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4131191d1c6c6b24091e0473096c2370
+      internalID: 714079437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Trickster1_55
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 206
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b33814df5f479f94fbdc87a5485d724e
+      internalID: -1732067427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Trickster1_56
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 206
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ce1fff452eca540bff03dc2db4cca3
+      internalID: -702245577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Trickster1_57
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 206
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4447a8a37614b3945822f866c4e8c14c
+      internalID: -1702275066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Trickster1_58
+      rect:
+        serializedVersion: 2
+        x: 1768
+        y: 220
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bfe913902337d94499d6b6fadaff547
+      internalID: -1542840338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Trickster1_59
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 220
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5335d254107f7c94faaba3d2889a911d
+      internalID: -1865026981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Trickster1_60
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 156
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 776f566cdfb093044aa044a47534cc36
+      internalID: -2069049403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Trickster1_61
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 156
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 319775c314e6937469d7817f5005cb3c
+      internalID: 1875073037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Trickster1_62
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 156
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9607827e946cd794aabf9994d036fe07
+      internalID: -805846653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Trickster1_63
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 148
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fb90cedd8fd6eb4db3f67bce8673086
+      internalID: 742498751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f720e9e2563bd00449fa766a2698b046
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      FinalEnemy_Trickster1_0: 507475510
+      FinalEnemy_Trickster1_1: 190021438
+      FinalEnemy_Trickster1_10: 446776351
+      FinalEnemy_Trickster1_11: -121494796
+      FinalEnemy_Trickster1_12: 1291361717
+      FinalEnemy_Trickster1_13: -20974840
+      FinalEnemy_Trickster1_14: -283565355
+      FinalEnemy_Trickster1_15: -144534423
+      FinalEnemy_Trickster1_16: 1141471609
+      FinalEnemy_Trickster1_17: 1843830860
+      FinalEnemy_Trickster1_18: -1009447877
+      FinalEnemy_Trickster1_19: -1272407358
+      FinalEnemy_Trickster1_2: -1648121849
+      FinalEnemy_Trickster1_20: -1539273020
+      FinalEnemy_Trickster1_21: 900485987
+      FinalEnemy_Trickster1_22: -315500081
+      FinalEnemy_Trickster1_23: -1468235546
+      FinalEnemy_Trickster1_24: 2001729478
+      FinalEnemy_Trickster1_25: 1712349817
+      FinalEnemy_Trickster1_26: -1449433089
+      FinalEnemy_Trickster1_27: 1848576895
+      FinalEnemy_Trickster1_28: -2105898363
+      FinalEnemy_Trickster1_29: 244583656
+      FinalEnemy_Trickster1_3: -1458366003
+      FinalEnemy_Trickster1_30: -1671726783
+      FinalEnemy_Trickster1_31: 1412091571
+      FinalEnemy_Trickster1_32: -1749575846
+      FinalEnemy_Trickster1_33: 385595810
+      FinalEnemy_Trickster1_34: -1706166151
+      FinalEnemy_Trickster1_35: -910527378
+      FinalEnemy_Trickster1_36: 670948432
+      FinalEnemy_Trickster1_37: 1383037708
+      FinalEnemy_Trickster1_38: -1813219797
+      FinalEnemy_Trickster1_39: 2040866953
+      FinalEnemy_Trickster1_4: 517188763
+      FinalEnemy_Trickster1_40: 1249059394
+      FinalEnemy_Trickster1_41: 891896546
+      FinalEnemy_Trickster1_42: 1730483354
+      FinalEnemy_Trickster1_43: 1699439316
+      FinalEnemy_Trickster1_44: 130895148
+      FinalEnemy_Trickster1_45: -20296906
+      FinalEnemy_Trickster1_46: 1343501483
+      FinalEnemy_Trickster1_47: -1603313249
+      FinalEnemy_Trickster1_48: -1865551247
+      FinalEnemy_Trickster1_49: 1509177425
+      FinalEnemy_Trickster1_5: 1142478942
+      FinalEnemy_Trickster1_50: 1865964778
+      FinalEnemy_Trickster1_51: 2136506104
+      FinalEnemy_Trickster1_52: 1130569611
+      FinalEnemy_Trickster1_53: -1472089248
+      FinalEnemy_Trickster1_54: 714079437
+      FinalEnemy_Trickster1_55: -1732067427
+      FinalEnemy_Trickster1_56: -702245577
+      FinalEnemy_Trickster1_57: -1702275066
+      FinalEnemy_Trickster1_58: -1542840338
+      FinalEnemy_Trickster1_59: -1865026981
+      FinalEnemy_Trickster1_6: -987049023
+      FinalEnemy_Trickster1_60: -2069049403
+      FinalEnemy_Trickster1_61: 1875073037
+      FinalEnemy_Trickster1_62: -805846653
+      FinalEnemy_Trickster1_63: 742498751
+      FinalEnemy_Trickster1_7: 1505789563
+      FinalEnemy_Trickster1_8: -1551292391
+      FinalEnemy_Trickster1_9: 885103704
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

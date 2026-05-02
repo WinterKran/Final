@@ -5,10 +5,7 @@ public class Boss2 : Health
 {
     public Transform player;
 
-    [Header("Underground")]
-    public Transform[] holes; // จุดโผล่ 3 จุด
-    public GameObject emergeHitboxPrefab;
-    public float undergroundDelay = 1f;
+    public float moveSpeed = 3f;
 
     [Header("Surface Attack")]
     public GameObject sideHitboxPrefab;
@@ -36,15 +33,25 @@ public class Boss2 : Health
     public GameObject arenaWall;
 
     void Start()
-{
-    rb = GetComponent<Rigidbody2D>();
-    sr = GetComponent<SpriteRenderer>(); // 🔥 ต้องเพิ่มบรรทัดนี้
+    {
+        rb = GetComponent<Rigidbody2D>();
+        sr = GetComponent<SpriteRenderer>();
 
-    StartCoroutine(FindPlayer());
-    StartCoroutine(BossLoop());
-}
+        canBeHit = true;
+        sr.sprite = surfaceSprite;// 🔥 เพิ่มบรรทัดนี้
 
-IEnumerator FindPlayer()
+        StartCoroutine(FindPlayer());
+        StartCoroutine(BossLoop());
+    }
+
+    void Update()
+    {
+        if (isDead) return;
+
+        ChasePlayer();
+    }
+
+    IEnumerator FindPlayer()
 {
     while (player == null)
     {
@@ -60,7 +67,9 @@ IEnumerator FindPlayer()
     {
         while (!isDead)
         {
-            yield return UndergroundAttack();
+            // ❌ ลบตัวนี้ออก
+            // yield return UndergroundAttack();
+
             yield return SurfaceAttack();
             yield return DashAttack();
 
@@ -68,42 +77,7 @@ IEnumerator FindPlayer()
         }
     }
 
-    // =========================
-    // 🕳️ 1. มุดดิน
-    // =========================
-   IEnumerator UndergroundAttack()
-{
-    canBeHit = false;
-    sr.sprite = undergroundSprite;
-
-    for (int i = 0; i < 3; i++)
-    {
-        int rand = Random.Range(0, holes.Length);
-        Transform hole = holes[rand];
-
-        transform.position = hole.position;
-
-        GameObject hit = Instantiate(emergeHitboxPrefab, hole.position, Quaternion.identity);
-
-        // 🔥 ใส่ damage ให้ hitbox
-        BossHitbox hb = hit.GetComponent<BossHitbox>();
-        if (hb != null)
-        {
-            hb.damage = 15f;
-        }
-
-        yield return new WaitForSeconds(undergroundDelay);
-    }
-
-    int finalHole = Random.Range(0, holes.Length);
-    transform.position = holes[finalHole].position;
-
-    sr.sprite = surfaceSprite;
-
-    canBeHit = true;
-
-    yield return new WaitForSeconds(1f);
-}
+   
 
     // =========================
     // ⚔️ 2. โผล่มาตี
@@ -206,20 +180,19 @@ void SpawnWave(Vector2 dir)
     }
 }
 
-void Die()
-{
-    isDead = true;
-    StopAllCoroutines();
-    Destroy(gameObject);
+    void Die()
+    {
+        isDead = true;
+        StopAllCoroutines();
 
-    GameObject wall = GameObject.FindGameObjectWithTag("Wall");
-    if (wall != null)
-        Destroy(wall);
+        GameObject wall = GameObject.FindGameObjectWithTag("Wall");
+        if (wall != null)
+            Destroy(wall);
 
-    Destroy(gameObject);
-}
+        Destroy(gameObject); // ✅ เหลืออันเดียวพอ
+    }
 
-public void ResetBoss(bool countAsKill)
+    public void ResetBoss(bool countAsKill)
 {
     StopAllCoroutines();
 
@@ -231,4 +204,17 @@ public void ResetBoss(bool countAsKill)
 
     gameObject.SetActive(false);
 }
+
+    void ChasePlayer()
+    {
+        if (player == null || isDashing) return;
+
+        Vector2 dir = (player.position - transform.position).normalized;
+
+        rb.linearVelocity = new Vector2(dir.x * moveSpeed, rb.linearVelocity.y);
+
+        // หันหน้า
+        if (dir.x != 0)
+            sr.flipX = dir.x < 0;
+    }
 }

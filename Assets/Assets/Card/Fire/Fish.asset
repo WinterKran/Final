@@ -20,3 +20,5 @@ MonoBehaviour:
   icon: {fileID: -1291781694, guid: 85bbf6083f3c8684ea03c9f928cc6cb5, type: 3}
   skillPrefab: {fileID: 8342213148228467857, guid: ea7e9946a8b786c448efc9546ca2b2ec, type: 3}
   hitBoxSize: {x: 2, y: 2}
+  sound: {fileID: 8300000, guid: 67424962c80406449897e4c729cefc82, type: 3}
+  hitSound: {fileID: 8300000, guid: 3330f8dfcac6a7d4787d4128846e0aa0, type: 3}

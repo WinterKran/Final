@@ -1,0 +1,901 @@
+fileFormatVersion: 2
+guid: 54a0682e91784cf47aca212e8dbfa9c1
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FinalEnemy_Rusher_Tutorial_0
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 13
+        width: 319
+        height: 231
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb84476738f33b84e95279264ffb2036
+      internalID: 1703123806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Rusher_Tutorial_1
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 252
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 397707f4eb1ae0d4fb4025859ffa8f2b
+      internalID: -2139346437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Rusher_Tutorial_2
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 252
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b0a019e6e15e94197f210ac0dbb0c9
+      internalID: -765826880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Rusher_Tutorial_3
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 252
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e0cf502d15abc54e8243a8b1e5f4ac6
+      internalID: -1449030704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Rusher_Tutorial_4
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 252
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aaeb99a9521b4843820493220f85936
+      internalID: 1724529824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Rusher_Tutorial_5
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 252
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 224741df96f2e324cab6e470f1a3860d
+      internalID: -158519488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Rusher_Tutorial_6
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 252
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49b6ea2b5a672e644b60e7228e15e88b
+      internalID: 1930923437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Rusher_Tutorial_7
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 252
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c19405a74dee962469a1692905d91a02
+      internalID: -316085978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Rusher_Tutorial_8
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 252
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c32be26f0df16478d82b89d7c315e9
+      internalID: 1696778537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Rusher_Tutorial_9
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 246
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eee76131cf1ccb542880dd7776a84ab8
+      internalID: 416259719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Rusher_Tutorial_10
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 246
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c91d5c1b057c2e6488b1e815b738c6c7
+      internalID: -509284785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Rusher_Tutorial_11
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 246
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93c8d4b2af6e98741b03148fd7baa216
+      internalID: -512102457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Rusher_Tutorial_12
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 246
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9e2e76911d134542bc424c85c463085
+      internalID: -1035993993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Rusher_Tutorial_13
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 246
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16383b241501c1c4186c7933d3fe7b79
+      internalID: -50244204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Rusher_Tutorial_14
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 246
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c91e770335c235746bf6c04e3171efcf
+      internalID: 185782354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Rusher_Tutorial_15
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 246
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfbfdc6e7ce648942988a539a5256589
+      internalID: -145740322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Rusher_Tutorial_16
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 156
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f41014c5147134f40ac181e28f51f663
+      internalID: 1464469706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Rusher_Tutorial_17
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 156
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f42e26e8e1b41164c8e174981cd4d7f0
+      internalID: -1302323664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Rusher_Tutorial_18
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 156
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61bf070249d9dab41aa17f8de0fbcb7b
+      internalID: -335877175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Rusher_Tutorial_19
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 156
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b35100ddf2c03f469efc753d9491009
+      internalID: 924619754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Rusher_Tutorial_20
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 156
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3d57fbfce1135041b55f1d30b714b69
+      internalID: 206062331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Rusher_Tutorial_21
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 156
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 494c89d1dc12ceb48899866c649f3067
+      internalID: 1083870303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Rusher_Tutorial_22
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 156
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 747e2974ef7331947a9403ecf392e638
+      internalID: -833272079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Rusher_Tutorial_23
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 131
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab56c4338e18e0e4eb666b10e96c723b
+      internalID: -1554871838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Rusher_Tutorial_24
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 131
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88bcc27f4a72a6548a567e5477fa45ae
+      internalID: 1824853651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Rusher_Tutorial_25
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 131
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4004f39f02645aa41911e995e2f6beb7
+      internalID: 1927344703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Rusher_Tutorial_26
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 127
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b14d3531b9de8e4e950bd3cc6784e18
+      internalID: -1894220069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Rusher_Tutorial_27
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 106
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8145b8719a1f3584bb74f1241aa9e3d7
+      internalID: 308407183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Rusher_Tutorial_28
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 106
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ab6f5bc3666d07438d069aa5df1b48a
+      internalID: -1543990019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Rusher_Tutorial_29
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 106
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 974b28752ed905d4b882a01e8c951b6a
+      internalID: 701523608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Rusher_Tutorial_30
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 81
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b4eaa51db73ba04a8101d6dc900550e
+      internalID: -1445311138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Rusher_Tutorial_31
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 81
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9666ca9c5cd3b4940b3a25a999239158
+      internalID: -233792391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Rusher_Tutorial_32
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 77
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53376574fc0d7db408b9a85e7f81aadc
+      internalID: 1567184857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalEnemy_Rusher_Tutorial_33
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 81
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a44f22e636b6314ba1cff1b1402c614
+      internalID: -1607524388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ea434c8a914c28b41a081a5fb1a5b03f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      FinalEnemy_Rusher_Tutorial_0: 1703123806
+      FinalEnemy_Rusher_Tutorial_1: -2139346437
+      FinalEnemy_Rusher_Tutorial_10: -509284785
+      FinalEnemy_Rusher_Tutorial_11: -512102457
+      FinalEnemy_Rusher_Tutorial_12: -1035993993
+      FinalEnemy_Rusher_Tutorial_13: -50244204
+      FinalEnemy_Rusher_Tutorial_14: 185782354
+      FinalEnemy_Rusher_Tutorial_15: -145740322
+      FinalEnemy_Rusher_Tutorial_16: 1464469706
+      FinalEnemy_Rusher_Tutorial_17: -1302323664
+      FinalEnemy_Rusher_Tutorial_18: -335877175
+      FinalEnemy_Rusher_Tutorial_19: 924619754
+      FinalEnemy_Rusher_Tutorial_2: -765826880
+      FinalEnemy_Rusher_Tutorial_20: 206062331
+      FinalEnemy_Rusher_Tutorial_21: 1083870303
+      FinalEnemy_Rusher_Tutorial_22: -833272079
+      FinalEnemy_Rusher_Tutorial_23: -1554871838
+      FinalEnemy_Rusher_Tutorial_24: 1824853651
+      FinalEnemy_Rusher_Tutorial_25: 1927344703
+      FinalEnemy_Rusher_Tutorial_26: -1894220069
+      FinalEnemy_Rusher_Tutorial_27: 308407183
+      FinalEnemy_Rusher_Tutorial_28: -1543990019
+      FinalEnemy_Rusher_Tutorial_29: 701523608
+      FinalEnemy_Rusher_Tutorial_3: -1449030704
+      FinalEnemy_Rusher_Tutorial_30: -1445311138
+      FinalEnemy_Rusher_Tutorial_31: -233792391
+      FinalEnemy_Rusher_Tutorial_32: 1567184857
+      FinalEnemy_Rusher_Tutorial_33: -1607524388
+      FinalEnemy_Rusher_Tutorial_4: 1724529824
+      FinalEnemy_Rusher_Tutorial_5: -158519488
+      FinalEnemy_Rusher_Tutorial_6: 1930923437
+      FinalEnemy_Rusher_Tutorial_7: -316085978
+      FinalEnemy_Rusher_Tutorial_8: 1696778537
+      FinalEnemy_Rusher_Tutorial_9: 416259719
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

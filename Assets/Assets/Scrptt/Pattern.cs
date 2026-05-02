@@ -6,6 +6,7 @@ public class Boss : Health
     public GameObject bulletPrefab;
     public Transform firePoint;
     public float dashSpeed = 10f;
+    public GameObject victoryPanel;
 
     public GameObject arenaWall;
 
@@ -26,12 +27,14 @@ public class Boss : Health
 
 
     void Start()
-{
-    player = GameObject.FindGameObjectWithTag("Player").transform;
-    bossRoutine = StartCoroutine(BossLoop());
-    rb = GetComponent<Rigidbody2D>();
+    {
+        player = GameObject.FindGameObjectWithTag("Player").transform;
+        bossRoutine = StartCoroutine(BossLoop());
+        rb = GetComponent<Rigidbody2D>();
 
-}
+        if (victoryPanel != null)
+            victoryPanel.SetActive(false);
+    }
 
     IEnumerator BossLoop()
 {
@@ -115,19 +118,23 @@ public class Boss : Health
 }
 
     void Die()
-{
-    if (isDead) return;
+    {
+        if (isDead) return;
 
-    isDead = true;
+        isDead = true;
 
-    GameObject wall = GameObject.FindGameObjectWithTag("Wall");
-    if (wall != null)
-        Destroy(wall);
+        GameObject wall = GameObject.FindGameObjectWithTag("Wall");
+        if (wall != null)
+            Destroy(wall);
 
-    Destroy(gameObject);
-}
+        // ✅ แสดง Victory Panel
+        if (victoryPanel != null)
+            victoryPanel.SetActive(true);
 
-void OnCollisionEnter2D(Collision2D col)
+        Destroy(gameObject);
+    }
+
+    void OnCollisionEnter2D(Collision2D col)
 {
     if (!isDashing || hitPlayer) return;
 

@@ -93,6 +93,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -114,28 +127,6 @@ TextureImporter:
       bones: []
       spriteID: 8ee27e139f79ccc468c27ec67d0d478d
       internalID: -338142360
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FinalEnemy_Boss_Mole11_1
-      rect:
-        serializedVersion: 2
-        x: 107
-        y: 126
-        width: 40
-        height: 34
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 71ba5c99a4884834a89360250fdc5b8c
-      internalID: -1535162549
       vertices: []
       indices: 
       edges: []
@@ -202,28 +193,6 @@ TextureImporter:
       bones: []
       spriteID: f598582fde4182849aea0a4e5edc2302
       internalID: 479588006
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FinalEnemy_Boss_Mole11_5
-      rect:
-        serializedVersion: 2
-        x: 787
-        y: 0
-        width: 49
-        height: 40
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e34b4891c2f08f74f8729e299996cd7c
-      internalID: 1378193584
       vertices: []
       indices: 
       edges: []

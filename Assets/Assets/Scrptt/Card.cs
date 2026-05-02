@@ -25,7 +25,7 @@ public class Card : ScriptableObject
 
     public CardType type;
 
-    public SkillType skillType;   // 👈 ตัวควบคุมหลัก
+    public SkillType skillType;
 
     public float damage;
     public float cooldown;
@@ -35,4 +35,9 @@ public class Card : ScriptableObject
     public GameObject skillPrefab;
 
     public Vector2 hitBoxSize;
+
+    // 🔊 เพิ่มเสียง
+    public AudioClip sound;
+
+    public AudioClip hitSound;
 }
